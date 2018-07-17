@@ -44,8 +44,22 @@
               "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
-              "buildOptimizer": true
+              "buildOptimizer": true,
+              "outputPath": "dist/my-project-es/",
+              "i18nFile": "src/locale/messages.es.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "fr",
+              "i18nMissingTranslation": "error"
+            },
+            "es": {
+              "aot": true,
+              "outputPath": "dist/my-project-es/",
+              "i18nFile": "src/locale/messages.es.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "fr",
+              "i18nMissingTranslation": "error"
             }
+           
           }
         },
         "serve": {
@@ -56,6 +70,9 @@
           "configurations": {
             "production": {
               "browserTarget": "multilingual-app:build:production"
+            },
+            "es": {
+              "browserTarget": "multilingual-app:build:es"
             }
           }
         },

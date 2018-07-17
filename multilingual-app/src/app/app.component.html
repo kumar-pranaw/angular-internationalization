@@ -1,20 +1,45 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="container">
+	    
+  <div class="col-sm-8 col-sm-offset-2 main">
+  <div class="col-sm-6 left-side">
+  <h1 i18n="@@appTitle">Hello<br>World.</h1>
+  <p i18n="@@paragraphtext">Welcome to My App Login page. User can login by using there credentials They can also Login using social</p>
+  <br>
+  <p i18n="@@paragraphtext">Login with social media</p>
+  <a class="fb" href="https://ccp.cloudaccess.net/aff.php?aff=5188" target="_blank">Login With Facebook</a>
+  <a class="tw" href="https://ccp.cloudaccess.net/aff.php?aff=5188" target="_blank">Login With Twitter</a>
 
+  </div><!--col-sm-6-->
+  
+  <div class="col-sm-6 right-side">
+  <h1 i18n="@@loginheader">Login</h1>
+  <p i18n="@@paragraphtext">Don't have an account? Create your account, it takes less than a minute</p>
+  
+<!--Form with header-->
+<div class="form">
+      <div class="form-group">
+      <label i18n="@@labelText" for="form2">Your email</label>
+          <input type="text" id="form2" class="form-control">
+          
+      </div>
+
+      <div class="form-group">
+      <label i18n="@@labelText2" for="form4">Your password</label>
+          <input type="password" id="form4" class="form-control">
+         
+      </div>
+
+      <div class="text-xs-center">
+          <a i18n="@@anchorText" href="http://deepak646.blogspot.in/" target="_blank" class="btn btn-deep-purple">Login</a>
+      </div>
+
+
+</div>
+<!--/Form with header-->
+
+  </div><!--col-sm-6-->
+  
+  
+      </div><!--col-sm-8-->
+      
+      </div><!--container-->
